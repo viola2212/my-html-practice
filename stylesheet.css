@@ -1,6 +1,10 @@
+/*div{
+    border:1px solid red;
+}*/
+
 
 .nav a{
-  color: gray;
+  color: white;
   font-size: 10px;
   font-weight: bold;
 }
@@ -12,13 +16,19 @@
     background-color: black;
     position: fixed;
     top:0;
+    height:25px
 }
 
 .pull-right{
     float:right;
+    height: 20px;
+
 }
 .pull-left{
     float:left;
+    height:20px;
+    padding-bottom: 0px;
+    text-align: center;
 }
 
 body{
@@ -29,41 +39,28 @@ body{
 .nav li {
   display:inline;
   }
+ .upper{
 
-.class img{
-    position:relative;;
-    display:block;
-    margin:auto;
-    vertical-align:middle;
-    clear:both
-    padding-bottom:15px;
-    margin-left: -250px;
-    width: 300px;
-}
+     height:150px;
+ }
+
+
 
 .middle{
-    /*height: 800px;
-    position: absolute;     /*絕對位置*/
-    /*top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
-    /*left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/
-    /*margin-top: -100px;     /*高度的一半*/
-    /*margin-left: -200px;   /*寬度的一半*/
     padding-bottom: 100px;
     margin:50px;
     height:100px;
 }
 .center{
-    position: absolute;     /*絕對位置*/
-    top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
-    left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/
-    margin-top: -200px;     /*高度的一半*/
-    margin-left: -250px;
+    text-align: center;
+}
+.pic{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin:auto;
 }
 .blank{
-    position: relative;;     /*絕對位置*/
-    top: 50%;               /*從上面開始算，下推 50% (一半) 的位置*/
-    left: 50%;              /*從左邊開始算，右推 50% (一半) 的位置*/
-    margin-top: 250px;     /*高度的一半*/
 
 
 }
@@ -85,8 +82,7 @@ body{
     padding:12px;
     font-size:12px;
     display: inline;
-    margin-left: -300px;
-    margin:auto;
+    text-align: center;
 
 
 }
@@ -109,6 +105,7 @@ body{
     background-color: gray;
     position: fixed;
     bottom:0;
+    height:25px;
 
 }
 
