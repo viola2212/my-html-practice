@@ -2,10 +2,28 @@
     border:1px solid red;
 }*/
 
+/*
+General
+*/
+* {
+    font-family: 'Helvatica' sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*
+Specific
+*/
+
 
 .nav a{
-  color: white;
-  font-size: 10px;
+  color: #ccc;
+  font-size: 12px;
   font-weight: bold;
 }
 .nav {
@@ -16,35 +34,55 @@
     background-color: black;
     position: fixed;
     top:0;
-    height:25px
+    height:25px;
 }
-
-.pull-right{
-    float:right;
-    height: 20px;
-
-}
+.nav li {
+  display:inline;
+  margin-left: 5px;
+  }
 .pull-left{
     float:left;
     height:20px;
-    padding-bottom: 0px;
     text-align: center;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+.pull-right{
+    float:right;
+    height: 20px
+    padding-top:5px;
+    padding-bottom: 5px;
+    display:inline-block;
+    padding-right:5px;
 }
 
+.word{
+    vertical-align:top;
+    padding-top: 5px;
+    display: inline-block;
+}
+.pics{
+    float: right;
+}
+
+.share{
+    background-color:green;
+}
 body{
     marin:0;
 }
 
 
-.nav li {
-  display:inline;
-  }
+
  .upper{
 
-     height:150px;
+     height:100px;
  }
 
-
+.light-text:hover{
+    color:#ffffff;
+}
 
 .middle{
     padding-bottom: 100px;
@@ -60,23 +98,29 @@ body{
     margin-bottom: 0;
     margin:auto;
 }
-.blank{
 
-
-}
 #in {
         padding:12px;
         font-size:12px;
         width:400px;
         height:40px;
         }
+.search{
+    text-align: center;
+}
+.search-bar{
+    width:420px;
+    margin: 0 auto;
+}
 
-.button{
+
+
+.button {
 
 	font-family: Futura, Tahoma, sans-serif;
 	color: gray;
 	border-radius: 5px 5px;
-	background-color:gray
+	background-color:#f2f2f2
     margin:-20px;
     width: 100px;
     padding:12px;
@@ -84,34 +128,44 @@ body{
     display: inline;
     text-align: center;
 
-
 }
-.button li{
+.btn{
     display:inline;
     margin-left: 10px;
     margin-right:10px;
-}
+    background-color:#f2f2f2;
+    font-size:13px;
+    border:none;
+    padding:5px 10px 5px 10px;
+    color:#777;
+    font-weight: bold;
 
+}
 
 
 
 .footer {
 
 　  /*margin-top: -500px;*/
-    padding:0;
+    padding:10px 0 10px 0;
 	width:100%;
 	list-style-type:none;
 	font:12px Arial;
-    background-color: gray;
+    background-color: #f2f2f2;
     position: fixed;
     bottom:0;
     height:25px;
 
+
 }
 
+#footer-right ul{
+    padding-top: 5px;
+
+}
 .footer a{
-    color: white;
-    font-size: 10px;
+    color: #666;
+    font-size: 12px;
     font-weight: bold;
 }
 
