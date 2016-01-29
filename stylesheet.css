@@ -164,11 +164,12 @@ body{
 
 }
 .footer a{
-    color: #666;
+    color: #888;
     font-size: 12px;
-    font-weight: bold;
 }
-
+.underline:hover{
+    text-decoration: underline;
+}
 
 .footer li{
             display:inline;
